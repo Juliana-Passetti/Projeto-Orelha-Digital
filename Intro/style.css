@@ -2,19 +2,21 @@
 
 
 .principal__capa {
-    height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+    height: 94vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
     text-align: center;
 }
 
 .principal__imagem {
-    margin-left: 40px;
+    padding: 50px 0 0 0;
+    margin-left: 50px;
 }
 
 .principal__titulo {
     color: #DF5202;
     font-family: 'Cinzel Decorative', serif;
     font-weight: 700;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -22,15 +24,17 @@
     color: #DF5202;
     font-family: 'Cinzel Decorative', serif;
     font-weight: 400;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    padding: 0 0 50px;
 }
 
 .principal__botao {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    background: none;
-    margin: 5px solid;
+    background-color: transparent;
+    margin: 5px solid #d9d9d9;
     padding: 20px 70px;
     border-radius: 20px;
 }
@@ -38,4 +42,15 @@
 .principal__link {
     text-decoration: none;
     color: #D9D9D9;
+}
+
+.principal__link:hover {
+    color: #DF5202;
+}
+
+footer p {
+    color: #DF5202;
+    padding: 10px;
+    font-family: 'Cinzel Decorative', serif;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
 }
