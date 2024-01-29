@@ -51,5 +51,5 @@ img {
 
 .imagem__fdp {
     display: grid;
-    flex-direction: row;
+    grid-template-rows: 2fr;
 }
