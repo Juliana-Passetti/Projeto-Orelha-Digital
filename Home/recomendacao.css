@@ -1,9 +1,8 @@
 .metade1 {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
-    height: 94vh;
-    width: 100%;
-    box-sizing: border-box;
-    border: 10px solid red;
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: 1fr;
 
 }
 
