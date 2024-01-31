@@ -17,8 +17,7 @@
 
 .container,
 .home__lista,
-.home__item,
-a {
+.home__item a {
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 600;
