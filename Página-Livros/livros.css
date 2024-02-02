@@ -1,0 +1,11 @@
+.pagina__livro {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+    display: grid;
+    grid-area: auto;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-auto-columns: auto;
+    height: 94vh;
+}
