@@ -1,0 +1,237 @@
+@import url('/Intro/capa-resp');
+
+
+/* Estilos padrão */
+
+/* Adicione suas regras CSS aqui */
+
+
+/* Estilos para telas de até 1440px */
+
+@media screen and (max-width: 1440px) {
+    .principal__body {
+        height: 94vh;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+        text-align: center;
+    }
+
+
+    .capa__imagem {
+        display: flex;
+        margin-left: 70px;
+        width: 30rem;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__titulo {
+        font-size: 40px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__subtitulo {
+        font-size: 25px;
+        /* Ajuste conforme necessário */
+        padding-bottom: 30px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__botao {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        background-color: transparent;
+        margin: 5px solid #d9d9d9;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: #D9D9D9 solid 1px;
+        width: 80%;
+        justify-self: center;
+    }
+}
+
+/* Estilos para telas de até 1024px */
+
+@media screen and (max-width: 1024px) {
+    
+
+    .capa__imagem {
+        display: flex;
+        margin-left: 70px;
+        width: 20rem;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__titulo {
+        font-size: 40px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__subtitulo {
+        font-size: 25px;
+        /* Ajuste conforme necessário */
+        padding-bottom: 30px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__botao {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        background-color: transparent;
+        margin: 5px solid #d9d9d9;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: #D9D9D9 solid 1px;
+        width: 80%;
+        justify-self: center;
+    }
+
+    footer p {
+        color: #DF5202;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        align-self: auto;
+        font-family: 'Cinzel Decorative', serif;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+    }
+}
+
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+    .principal__body {
+        height: 94vh;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+        text-align: center;
+    }
+
+    .capa__imagem {
+        display: flex;
+        margin-left: 50px;
+        /* Ajuste conforme necessário */
+        width: 25rem;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__titulo {
+        font-size: 30px;
+        justify-self: center;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__subtitulo {
+        font-size: 20px;
+        /* Ajuste conforme necessário */
+        padding-bottom: 20px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__botao {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        background-color: transparent;
+        margin: 5px solid #d9d9d9;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: #D9D9D9 solid 1px;
+        width: 60%;
+        justify-self: center;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para smartphones */
+
+
+@media screen and (max-width: 425px) {
+
+    .principal__body {
+        height: 94vh;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+        text-align: center;
+    }
+
+    .capa__imagem {
+        display: flex;
+        margin-left: 45px;
+        width: 20rem;
+
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__titulo {
+        font-size: 25px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__subtitulo {
+        font-size: 15px;
+        /* Ajuste conforme necessário */
+        padding-bottom: 10px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__botao {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        background-color: transparent;
+        margin: 5px solid #d9d9d9;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: #D9D9D9 solid 1px;
+        width: 50%;
+        justify-self: center;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .principal__body {
+        height: 94vh;
+        width: 100%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
+        text-align: center;
+    }
+
+    .capa__imagem {
+        display: flex;
+        margin-left: 50px;
+        width: 25rem;
+
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__titulo {
+        font-size: 25px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__subtitulo {
+        font-size: 15px;
+        /* Ajuste conforme necessário */
+        padding-bottom: 10px;
+        /* Ajuste conforme necessário */
+    }
+
+    .capa__botao {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+        background-color: transparent;
+        margin: 5px solid #d9d9d9;
+        padding: 20px 40px;
+        border-radius: 20px;
+        border: #D9D9D9 solid 1px;
+        width: 50%;
+        justify-self: center;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}

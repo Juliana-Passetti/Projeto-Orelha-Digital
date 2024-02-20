@@ -15,72 +15,77 @@
     <link rel="stylesheet" href="../Home/recomendacao.css">
     <link rel="stylesheet" href="../Página-Livros/livros.html">
 
+    <script src="/Home/java.js"></script>
+
 
 </head>
 
 <body>
 
-    <header class="cabecalho">
-        <img class="home__logo" src="../logos/logotransp.png" alt="logo orelha digital">
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="/logos/logotransp.png" class="container__imagem">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Lançamentos</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lançamentos da Semana</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lançamentos do Mês</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Lançamentos por Ano</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Por Autor</a>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Mais ouvidos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Gêneros</a></li>
+        </ul>
 
         <div class="container">
-
-            <ul class="home__lista">
-
-                <li class="home__item"><a href="#">Lançamentos</a></li>
-
-                <li class="home__item"> <a href="#">Mais ouvidos</a></li>
-
-                <li class="home__item"><a href="#">Sagas</a></li>
-
-                <li class="home__item"> <a href="#">Gêneros</a></li>
-
-                <li class="home__item"><a href="#">Faça uma doação</a></li>
-
-            </ul>
-
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                <p class="container__texto">Faça uma doação</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
-
     </header>
-    <section class="metades">
-        <div class="conteudo__principal">
-            <h1 class="conteudo__principal chamada">Recomendação do dia:</h1>
-            <h2 class="conteudo__principal titulo">O Conde de Monte Cristo</h2>
-            <p class="conteudo__principal descricao">O Conde de Monte Cristo é um romance de aventura francês escrito
-                por
-                Alexandre Dumas, em colaboração com
-                Auguste Maquet,
-                concluído em 1844. Inicialmente publicado como folhetim de 1844 a 1846. Sobre a história, baseada na
-                vida de
-                Pierre
-                Picaud, onde o marinheiro Edmond Dantès é preso injustamente.</p>
-        </div>
-        <div class="imagem__recomendacao">
-            <img class="conteudo__principal__imagem" src="../imagens/banner-livros/condebanner.png" alt="">
-        </div>
-
-        <div class="conteudo__principal__carrossel">
-
-            <div class="conteudo__principal__imagens">
-                <a href="../Página-Livros/livros.html"> <img class="conteudo__lista__img"
-                        src="../imagens/capas-livros/condelivro.jpg"></a>
-                <img class="conteudo__lista__img" src="../imagens/capas-livros/dclivro.jpg">
-                <img class="conteudo__lista__img" src="../imagens/capas-livros/gacylivro.jpg">
-                <img class="conteudo__lista__img" src="../imagens/capas-livros/itlivro.jpg">
-                <img class="conteudo__lista__img" src="../imagens/capas-livros/dclivro.jpg">
-            </div>
-        </div>
-        <div class="conteudo__lista">
-            <ul class="conteudo__subtitulo">
-                <li>O Conde de Monte Cristo</li>
-                <li>Dom Casmurro</li>
-                <li>Killer Clown</li>
-                <li>IT - A coisa</li>
-                <li>Dom Casmurro</li>
-            </ul>
-        </div>
-
-    </section>
 
 
 

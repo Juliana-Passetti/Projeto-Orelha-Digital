@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
+body {
+    overflow-y: hidden;
+}
 
-.principal__capa {
-    height: 94vh;
+.principal__body {
+    height: 100vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
     text-align: center;
 }
 
-.principal__imagem {
+.container__capa {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa__imagem {
     margin-left: 80px;
     width: 30rem;
 }
 
-.principal__titulo {
+.capa__titulo {
     color: #DF5202;
     font-family: 'Cinzel Decorative', serif;
     font-weight: 700;
@@ -20,7 +30,7 @@
     text-align: center;
 }
 
-.principal__subtitulo {
+.capa__subtitulo {
     color: #DF5202;
     font-family: 'Cinzel Decorative', serif;
     font-weight: 400;
@@ -30,26 +40,37 @@
     padding: 0 0 50px;
 }
 
-.principal__botao {
+.capa__botao {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 2rem;
     background-color: transparent;
     margin: 5px solid #d9d9d9;
     padding: 20px 70px;
     border-radius: 20px;
+    width: 80%;
+    justify-self: center;
 }
 
-.principal__link {
+.capa__link {
     text-decoration: none;
     color: #D9D9D9;
 }
 
-.principal__link:hover {
-    color: #DF5202;
+.capa__botao:hover {
+    background-color: #DF5202;
+    transition: 1s;
+}
+
+
+.capa__footer {
+    display: grid;
 }
 
 footer p {
+    display: flex;
     color: #DF5202;
+    align-items: center;
+    justify-content: end;
     padding: 10px;
     font-family: 'Cinzel Decorative', serif;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.635));
